@@ -1,7 +1,7 @@
 {
   "name": "formattingtoggler",
   "displayName": "FormattingToggler",
-  "description": "Easily turn off automattic formatting",
+  "description": "Easily turn on/off automattic formatting",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.89.0"
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "formattingtoggler.helloWorld",
-        "title": "Hello World"
+		"command": "extension.toggleFormatOnSave",
+		"title": "Toggle Format On Save"
       }
     ]
   },
